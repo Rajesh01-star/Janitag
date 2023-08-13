@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import BrandsRow from './components/BrandsRow';
+import Card from './components/Card';
+import Frame from './components/Frame';
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App bg-[#EFEFED] min-h-screen">
+      <Navbar />
+      <Hero />
+      <div className='w-full h-[640px] px-10 mx-auto'>
+        <img src='./images/hero-image.jpg' className='object-cover w-full h-full rounded-[20px]' alt='heroImage' />
+      </div>
+      <BrandsRow />
+      <div className='mt-60 w-[50%] h-[270px] mx-40 text-[56px] font-[700] text-[#333232] leading-tight'>
+      “The real fact of the matter is that nobody reads ads. People read what interests them, and sometimes it’s an ad”
+      </div>
     </div>
   );
 }
