@@ -13,7 +13,7 @@ export default function Footer() {
                 <div className="w-1/2 flex flex-col justify-around items-start px-20">
                     <div className="h-[166px] text-white">
                         <h2 className="text-[32px] font-[700] mb-[20px]">Menu</h2>
-                        <ul className="gap-[18px] text-[#CBBFAC] text-[20px] font-[700] leading-normal">
+                        <ul className="gap-[18px] text-[#CBBFAC] text-[21px] font-[700] leading-normal">
                             <li>How it works</li>
                             <li>Services</li>
                             <li>Contact</li>

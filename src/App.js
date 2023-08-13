@@ -1,12 +1,12 @@
 import './App.css';
 import BrandsRow from './components/BrandsRow';
-import Card from './components/Card';
-import Frame from './components/Frame';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import FollowUp from './components/FollowUp';
 import Features from './components/Features';
+import Actions from './components/Actions';
+import Filler from './components/Filler';
 
 function App() {
   return (
@@ -20,6 +20,8 @@ function App() {
       <div className='my-80 min-w-[964px] w-1/2 h-[270px] mx-40 text-[56px] font-[700] text-[#333232] leading-tight'>
       “The real fact of the matter is that nobody reads ads. People read what interests them, and sometimes it’s an ad”
       </div>
+      <Filler />
+      <Actions />
       <Features />
       <FollowUp />
       <Footer />
