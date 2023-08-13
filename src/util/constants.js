@@ -19,31 +19,31 @@ const frameSupply = [
 const cardSupply = [
   {
     id: 1,
-    emoji: "",
+    emoji: "🙅",
     heading: "Pause",
     text: "want to take a break? Pause our services anytime",
   },
   {
     id: 2,
-    emoji: "",
+    emoji: "🏎️",
     heading: "Super fast",
     text: "See consistent work in action, super fast.",
   },
   {
     id: 3,
-    emoji: "",
+    emoji: "🎯",
     heading: "Built to perform",
     text: "Our experienced team of market strategists make sure to come up with the best strategies",
   },
   {
     id: 4,
-    emoji: "",
+    emoji: "🛠",
     heading: "Tailored for you",
     text: "Your experience with us will be customfit and exclusive to you",
   },
   {
     id: 5,
-    emoji: "",
+    emoji: "🏆",
     heading: "Premium quality",
     text: "Get your ads run by professionals and revise until you're 100% satisfied",
   },

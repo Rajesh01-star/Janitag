@@ -1,8 +1,7 @@
-export default function Button({ text }) {
+export default function Button({ text, type }) {
     return (
-        <div className="w-[125px] h-[51px] flex justify-center items-center rounded-[10px] bg-gradient-to-r from-[#FFAC75] via-[#FE6468] to-[#AD71F2]">            
-        {text}
+        <div className={`${type === 'big' ? 'w-[268px] h-[83px] text-[20px]' : 'w-[125px] h-[51px]'} text-white flex justify-center items-center rounded-[10px] bg-gradient-to-r from-[#FFAC75] via-[#FE6468] to-[#AD71F2] cursor-pointer`}>
+            {text}
         </div>
-
     )
 }
