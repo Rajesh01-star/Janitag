@@ -5,7 +5,7 @@ export default function Frame({ id, heading, text }) {
                 0{id}
             </div>
             <div className="lg:block flex flex-col items-center">
-                <p className="lg:text-[48px] text-[28px]">{heading}</p>
+                <p className="lg:text-[56px] text-[28px]">{heading}</p>
                 <p className="lg:text-[16px] text-[14px] lg:text-start text-center leading-normal">{text}</p>
             </div>
         </section>

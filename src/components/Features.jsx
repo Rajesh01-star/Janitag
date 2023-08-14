@@ -13,7 +13,7 @@ export default function Features() {
                 />
             </div>
             <div className="col-span-2 lg:flex hidden justify-center items-center">
-                <div className="w-[643px] text-[#333232] text-[38px] font-[700] leading-normal">
+                <div className="w-[643px] text-[#333232] text-[40px] font-[700] leading-normal">
                     Why choose us?<br/>
                     what makes us different?
                 </div>

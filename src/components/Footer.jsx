@@ -12,8 +12,8 @@ export default function Footer() {
                 </div>
                 <div className="md:w-1/2 flex flex-col justify-around md:items-start items-center px-20">
                     <div className="hidden md:block h-[166px] text-white">
-                        <h2 className="text-[32px] font-[700] mb-[20px]">Menu</h2>
-                        <ul className="gap-[18px] text-[#CBBFAC] text-[21px] font-[700] leading-normal">
+                        <h2 className="text-[40px] font-[700] mb-[20px]">Menu</h2>
+                        <ul className="gap-[18px] text-[#CBBFAC] text-[22px] font-[700] leading-normal">
                             <li>How it works</li>
                             <li>Services</li>
                             <li>Contact</li>
@@ -25,7 +25,7 @@ export default function Footer() {
                     </div>
                 </div>
             </section>
-            <section className="h-[60px] bg-[#212121] text-[#6B6B6B] md:text-[20px] text-[18px] md:font-[700] font-[600] leading-normal flex justify-center items-center">Made with 🧡 by x.com</section>
+            <section className="h-[60px] bg-[#212121] text-[#6B6B6B] md:text-[20px] text-[22px] md:font-[700] font-[600] leading-normal flex justify-center items-center">Made with 🧡 by x.com</section>
         </footer>
     )
 }
