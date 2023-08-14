@@ -3,7 +3,7 @@ import Card from "./Card";
 
 export default function Features() {
     return (
-        <section className="min-h-[1390px] grid grid-cols-3 gap-0 px-48">
+        <section className="lg:h-[1390px] h-[400px] overflow-x-auto flex lg:grid grid-cols-3 lg:gap-0 gap-4 lg:px-48 px-8">
             {/* First Row */}
             <div className="col-span-1">
                 <Card
@@ -12,7 +12,7 @@ export default function Features() {
                     text={cardSupply[0].text}
                 />
             </div>
-            <div className="col-span-2 flex justify-center items-center">
+            <div className="col-span-2 lg:flex hidden justify-center items-center">
                 <div className="w-[643px] text-[#333232] text-[38px] font-[700] leading-normal">
                     Why choose us?<br/>
                     what makes us different?
