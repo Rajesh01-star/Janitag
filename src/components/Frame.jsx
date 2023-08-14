@@ -1,12 +1,12 @@
 export default function Frame({ id, heading, text }) {
     return (
-        <section className="w-[409px] h-[111px] flex justify-center items-center gap-[47px] text-[#333232] font-[700] ">
-            <div className="h-[97px] w-[197px] rounded-full flex justify-center items-center text-[48px] font-[400] text-black border-[1px] border-black">
+        <section className="lg:w-[409px] w-[170px] lg:h-[111px] flex flex-col lg:flex-row justify-center items-center lg:gap-[47px] gap-4 text-[#333232] font-[700]">
+            <div className="lg:h-[97px] lg:w-[197px] p-4 lg:p-0 rounded-full flex justify-center items-center lg:text-[48px] md:text-[28px] font-[400] text-black border-[1px] border-black">
                 0{id}
             </div>
-            <div>
-                <p className="text-[48px]">{heading}</p>
-                <p className="text-[16px] leading-normal">{text}</p>
+            <div className="lg:block flex flex-col items-center">
+                <p className="lg:text-[48px] text-[28px]">{heading}</p>
+                <p className="lg:text-[16px] text-[14px] lg:text-start text-center leading-normal">{text}</p>
             </div>
         </section>
     )
