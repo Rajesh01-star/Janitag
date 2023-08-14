@@ -3,7 +3,7 @@ import Card from "./Card";
 
 export default function Features() {
     return (
-        <section className="lg:h-[1390px] h-[400px] overflow-x-auto flex lg:grid grid-cols-3 lg:gap-0 gap-4 lg:px-48 px-8">
+        <section className="lg:h-[1390px] h-[400px] overflow-x-auto flex lg:grid grid-cols-3 lg:gap-0 gap-4 lg:gap-y-14 lg:px-48 px-8">
             {/* First Row */}
             <div className="col-span-1">
                 <Card
